@@ -49,6 +49,8 @@ agent = Agent(
 )
 
 
+# ================= RUNNER =======================
+
 user_query = input("Enter Query: ")
 try:
     result = Runner.run_sync(
